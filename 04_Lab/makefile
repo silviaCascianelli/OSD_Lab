@@ -9,4 +9,3 @@ all: $(TAR)
 
 %: %.c
 	$(CC) $(CFLAG)  $< -o $@ -lpthread
-
